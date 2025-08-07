@@ -5,6 +5,8 @@
   --color1: #db5757;
   --color2: #ffffff;
   --color3: #645f5f;
+  --color4: #000000;
+  --color5: #eb2121;
 }
 
 * {
@@ -195,4 +197,142 @@ nav h2 {
   text-align: center;
   color: var(--color1);
   padding: 0 20px 20px 20px;
+}
+
+* .section-4-1 {
+  display: grid;
+  grid-template-columns: 40% 20% 15%;
+  place-items: center;
+}
+
+.section-4-1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: ;
+  color: var(--color1);
+  text-transform: uppercase;
+}
+
+.section-4-1-1 {
+  border: 0.1px solid var(--color1);
+  width: 80%;
+  margin-top: 15px;
+  margin: 15px auto 0 auto;
+}
+
+.section-4-2 {
+  display: grid;
+  grid-template-columns: 40% 22% 33%;
+  place-items: center;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-4-2 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-style: regular;
+  color: var(--color4);
+}
+
+.section-4-3 {
+  display: grid;
+  grid-template-columns: 40% 22% 33%;
+  place-items: center;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--color1);
+}
+
+.section-4-3 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-style: regular;
+  color: var(--color2);
+}
+
+.section-4-4 {
+  display: grid;
+  grid-template-columns: 40% 22% 33%;
+  place-items: center;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-4-4 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-style: regular;
+  color: var(--color4);
+}
+
+.section-4-5 {
+  display: grid;
+  grid-template-columns: 40% 22% 33%;
+  place-items: center;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--color1);
+}
+
+.section-4-5 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-style: regular;
+  color: var(--color2);
+}
+
+.section-4-6 {
+  display: grid;
+  grid-template-columns: 40% 22% 33%;
+  place-items: center;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-4-6 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-style: regular;
+  color: var(--color4);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  display: block;
+  margin: 18px auto 18px auto;
+  background-color: var(--color1);
+  color: var(--color2);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--color5);
+}
+
+footer {
+  background-color: var(--color1);
+  padding: 25px;
+}
+
+footer p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: ;
+  font-style: regular;
+  color: var(--color2);
 }

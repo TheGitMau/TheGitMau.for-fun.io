@@ -36,9 +36,8 @@ nav ul {
   gap: 40px;
   padding: 15px 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  font-style: Regular;
   text-transform: uppercase;
 }
 
@@ -50,8 +49,7 @@ nav a {
 nav h2 {
   font-family: "Redressed", cursive;
   font-weight: 400;
-  font-style: regular;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 54px;
 }
 
@@ -71,9 +69,9 @@ nav h2 {
 .section-1-1 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 25px;
-  font-style: bold;
+  font-size: 1.5625rem;
   color: var(--color1);
+  text-transform: capitalize;
 }
 
 .section-1-1 p {
@@ -81,8 +79,6 @@ nav h2 {
   height: 168px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-style: light;
-  font-size: ;
   line-height: 28px;
   color: var(--color3);
   text-align: center;
@@ -91,11 +87,9 @@ nav h2 {
 .section-1-2 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-style: bold;
-  font-size: ;
   text-align: center;
   color: var(--color1);
-  padding-bottom: 25px;
+  padding-bottom: 63px;
 }
 
 .section-1-2-1 {
@@ -115,7 +109,6 @@ nav h2 {
 .section-1-2-1 h5 {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-style: SemiBold;
   font-size: 1rem;
   color: var(--color1);
   padding: 15px 0;
@@ -124,7 +117,6 @@ nav h2 {
 .section-1-2-1 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-style: regular;
   font-size: 0.7rem;
   color: var(--color3);
   text-align: center;
@@ -143,7 +135,6 @@ nav h2 {
 .section-2 {
   padding: 20px 25px;
   display: flex;
-
   width: 100%;
 }
 
@@ -192,14 +183,12 @@ nav h2 {
 .section-3 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-style: bold;
-  font-size: ;
   text-align: center;
   color: var(--color1);
   padding: 0 20px 20px 20px;
 }
 
-* .section-4-1 {
+.section-4-1 {
   display: grid;
   grid-template-columns: 40% 20% 15%;
   place-items: center;
@@ -208,8 +197,6 @@ nav h2 {
 .section-4-1 p {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-style: semibold;
-  font-size: ;
   color: var(--color1);
   text-transform: uppercase;
 }
@@ -217,7 +204,6 @@ nav h2 {
 .section-4-1-1 {
   border: 0.1px solid var(--color1);
   width: 80%;
-  margin-top: 15px;
   margin: 15px auto 0 auto;
 }
 
@@ -234,7 +220,6 @@ nav h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  font-style: regular;
   color: var(--color4);
 }
 
@@ -252,7 +237,6 @@ nav h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  font-style: regular;
   color: var(--color2);
 }
 
@@ -269,7 +253,6 @@ nav h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  font-style: regular;
   color: var(--color4);
 }
 
@@ -287,7 +270,6 @@ nav h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  font-style: regular;
   color: var(--color2);
 }
 
@@ -304,8 +286,11 @@ nav h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  font-style: regular;
   color: var(--color4);
+}
+
+.p-o {
+  opacity: 0.5;
 }
 
 button {
@@ -316,7 +301,7 @@ button {
   background-color: var(--color1);
   color: var(--color2);
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-out;
 }
 
 button:hover {
@@ -332,7 +317,5 @@ footer p {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: ;
-  font-style: regular;
   color: var(--color2);
 }

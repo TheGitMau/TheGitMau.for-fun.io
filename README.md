@@ -19,12 +19,11 @@ La maquette Figma originale est accessible ici :
 
 ## Structure du projet
 
-/TheGitMau.for-fun.io/
-│
-├── index.html # Fichier principal d’intégration
-├── style.css # Feuille de style principale
-└── Assets/
-└── img/ # Images utilisées (photos des intervenants)
+- `/TheGitMau.for-fun.io/` : Dossier racine du projet
+  - `index.html` : Fichier principal d’intégration
+  - `style.css` : Feuille de style principale
+  - `/Assets/` : Dossier contenant les ressources du projet
+    - `/img/` : Images utilisées (photos des intervenants)
 
 ## Installation et utilisation
 
